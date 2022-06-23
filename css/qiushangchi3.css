@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	background-image:linear-gradient(180deg,#8b0000,#000000,#8b0000);
+	height: 1662px;
+	width: 100%;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #ff0000;
+	font-family: "宋体"";
+}
+.contanint{
+	width: 1300px;
+	margin: auto;
+	background-color: rgba(53,53,53);
+}
+.qiu>h1{
+	padding: 10px;
+	text-align: center;
+	font-family: "宋体";
+	font-style: italic;
+	text-shadow:30px 20px 10px #ec2c26;
+	font-size: 60px;
+	color: #ce081a;
+}
+.centent{
+	background-color: #000000;
+}
+nav>ul>li{
+	float: left;
+	padding: 20px 30px;
+	background-color: #000000;
+}
+input{
+	float: left;
+	width: 180px;
+	height: 30px;
+	margin: 14px 0;
+	margin-right:10px;
+	margin-left: 320px;
+}
+button{
+	width: 50px;
+	margin: 14px 0;
+	height: 34px;
+}
+.shang>img{
+	width: 100%;
+	height: 400px;
+}
+.overder{
+	float: left;
+	font-family: "宋体";
+	border: 1px solid #000000;
+	background-image: url(../img/10.gif);
+	height: 100%;
+}
+.left{
+	float: left;
+	margin: 20px;
+	width: 1100px;
+	height: 200px;
+	border: 1px solid #000000;
+}
+.left:nth-child(2){
+	float: right;
+}
+.left:nth-child(4){
+	float: right;
+}
+.tupian{
+	width: 200px;
+	height: 300px;
+	float: left;
+}
+.overder>.left>.tupian>img{
+	width:100%;
+	height: 200px;
+}
+.fuot{
+	width: 900px;
+	height: 200px;
+	float: left;
+	background-color: #262626;
+	color: #cccccc;
+}
+.fuot>h4{
+	padding: 10px;
+}
+.fuot>p{
+	padding: 10px;
+}
+.five{
+	margin-top: 20px;
+	margin-left: 800px;
+	float: left;
+	padding: 5px;
+	width: 65px;
+	height: 20px;
+	border: 1px solid aliceblue;
+}
+.five>a{
+	color: aliceblue;
+}
+footer{
+	padding: 20px;
+	background-color: #000000;
+	text-align: center;
+	color: white;
+}
+footer>h1{
+	padding-bottom: 10px;
+}
+footer>p{
+	padding-bottom: 10px;
+}
